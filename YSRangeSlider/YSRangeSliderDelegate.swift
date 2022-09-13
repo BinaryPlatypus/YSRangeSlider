@@ -9,7 +9,7 @@
 import UIKit
 
 // MARK: - YSRangeSliderDelegate
-public protocol YSRangeSliderDelegate: class {
+public protocol YSRangeSliderDelegate: AnyObject {
     /** Delegate function that is called every time minimum or maximum selected value is changed
      - Parameters:
      - rangeSlider: Current instance of `YSRangeSlider`
